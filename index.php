@@ -176,8 +176,8 @@
             <div class="row justify-content-center">
                 <div class="col-sm-4">
                     <div class="g-text-center--xs">
-                        <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Lakshya Shukla</h4>
-                         <p class="g-color--white">+91 77384 46941<br>lakshyashukla32@gmail.com</p>
+                        <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Gauri Dixit</h4>
+                         <p class="g-color--white">+91 93594 07052<br>gauri057dixit@gmail.com</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
