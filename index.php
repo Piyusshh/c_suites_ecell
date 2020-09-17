@@ -182,8 +182,8 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="g-text-center--xs">
-                        <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Jitendra Rahangdale</h4>
-                         <p class="g-color--white">+91 89560 79892<br>jitendra98rahangdale@gmail.com</p>
+                        <h4 class="manager-name g-font-size-18--xs g-color--white g-margin-b-5--xs">Yash Mantri</h4>
+                         <p class="g-color--white">+91 76208 72471<br>yashamantri1@gmail.com</p>
                     </div>
                 </div>
             </div>
