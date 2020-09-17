@@ -47,8 +47,8 @@
 
         <nav class="navbar navbar-expand-sm fixed-top">
             <div class="container">
-              <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler bg-light ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
+                <i class="fas fa-bars"></i>
               </button>
 
               <div class="collapse navbar-collapse" id="Navbar">
@@ -161,7 +161,7 @@
                     </div>
                     <button class="btn btn-outline-light" name="submit_member" type="submit">Submit</button>
                 </form>
-                
+
             </div>
 
 
@@ -255,33 +255,33 @@
         <div class="col-md-3">
           <h4 class="follow-ecell">Follow Ecell VNIT</h4>
 
-          <div class="row share-row">
+          <div class="row share-row justify-content-center">
 
-            <div class="col-md-4">
+            <div class="col-md-4 col-2">
               <a class="s-header__action-link" href=" https://m.facebook.com/vnitecell/" target="_blank">
                 <i class="fab fa-facebook fa-2x"></i>
                 <span class="aria-hidden sr-only">Facebook</span>
               </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-2">
               <a class="s-header__action-link" href="https://twitter.com/ecell_vnit" target="_blank">
                 <i class="fab fa-twitter fa-2x"></i>
                 <span class="aria-hidden sr-only">Twitter</span>
               </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-2">
               <a class="s-header__action-link" href=" https://www.instagram.com/ecellvnit/" target="_blank">
                 <i class="fab fa-instagram fa-2x"></i>
                 <span class="aria-hidden sr-only">Instagram</span>
               </a>
             </div>
-            <div class="col-md-4 my-3">
+            <div class="col-md-4 my-3 col-2">
               <a class="s-header__action-link" href=" https://www.linkedin.com/company/6615520/" target="_blank">
                 <i class="fab fa-linkedin-in fa-2x"></i>
                 <span class="aria-hidden sr-only">LinkedIn</span>
               </a>
             </div>
-            <div class="col-md-4 my-3">
+            <div class="col-md-4 my-3 col-2">
               <a class="s-header__action-link" href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank">
                 <i class="fab fa-youtube fa-2x"></i>
                 <span class="aria-hidden sr-only">YouTube</span>
@@ -305,9 +305,7 @@
           <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity g-padding-y-20--md">Copyright:
             <a class="g-color--primary" href="https://ecellvnit.org" target="_blank">E-Cell VNIT</a>
           </p>
-          <p class="text-white">
-            Developed by Prabuddha, Deepak, Hasan, Niharika and Siddharth
-          </p>
+
         </div>
       </div>
 

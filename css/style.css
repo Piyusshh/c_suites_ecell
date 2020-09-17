@@ -113,3 +113,18 @@ footer
       min-height: 300px;
   }
 }
+@media(max-width: 600px)
+{
+    footer
+    {
+        text-align: center;
+    }
+    footer .col-md-3
+    {
+        padding-top: 2rem;
+    }
+    .share-row .my-3
+    {
+        margin-top: 0 !important;
+    }
+}
