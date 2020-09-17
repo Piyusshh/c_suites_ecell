@@ -80,9 +80,9 @@ else{
                 <br>    
                     <div class="form-group row">
                         <?php echo "Team member " . $i; ?>
-                        <input class="form-control rounded-pill" type="text" name="name[]" placeholder="Enter Name">
-                        <input class="form-control rounded-pill mt-2" type="text" name="age[]" placeholder="Enter Phone Number">
-                        <input class="form-control rounded-pill mt-2" type="text" name="job[]" placeholder="Enter Email">
+                        <input class="form-control rounded-pill" type="text" name="name[]" placeholder="Enter Name" required>
+                        <input class="form-control rounded-pill mt-2" type="number" name="age[]" placeholder="Enter Phone Number" required>
+                        <input class="form-control rounded-pill mt-2" type="email" name="job[]" placeholder="Enter Email" required>
                     </div>
                 <?php endfor; ?>
                 <center>

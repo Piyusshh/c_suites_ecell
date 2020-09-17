@@ -159,7 +159,7 @@
                           <option>5</option>
                         </select>
                     </div>
-                    <button class="btn btn-outline-light" name="submit_member" type="submit">Submit</button>
+                    <button class="btn btn-outline-light" name="submit_member" type="submit">Register</button>
                 </form>
 
             </div>
