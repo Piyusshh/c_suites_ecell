@@ -27,9 +27,8 @@ if ($conn->connect_error){
     echo $age[$i];
     echo $job[$i];
    $sql = "INSERT INTO employee_table (name, age, job, startidea, startdesc, leaderid, leaderrollno) VALUES ('$name[$i]', '$age[$i]', '$job[$i]','$startidea', '$startdesc', '$leaderid', '$leaderrollno' )";   
-   //mysql_query("insert into employee_table values('$name[$i]','$age[$i]','$job[$i]')");	
    if ($conn->query($sql) === TRUE) {
-    header('LOCATION:thanks.php');
+    header('LOCATION:thanks.php?name='.$name[0]);
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
   } 

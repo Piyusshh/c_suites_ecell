@@ -17,46 +17,65 @@ else{
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- external css  -->
-    <link rel="stylesheet" href="css/form_style.css">
+    <link rel="stylesheet" href="css/formStyle.css">
     <!-- Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container pt-2 shadow-lg p-3 mb-5 bg-white rounded">
+    <div class="container d-flex justify-content-center pt-3 shadow-lg p-3 mb-5 bg-white rounded">
         <div class="row">
             <form class="p-4" method="post" action="store_detail.php">
+                
                 <div class="card-heading text-center">
                     <h1 class="title pb-2">Registration</h1>
                     <hr>
                 </div>
                 <div class="form-group row">
-                    <label for="startidea" class="col-sm-4 col-form-label">Startup Idea</label>
-                    <div class="col-sm-8">
+                    <label for="startidea" class="col-md-4 col-form-label">Startup Idea</label>
+                    <div class="col-md-8">
                         <input type="text" class="form-control rounded-pill" name="startidea" placeholder="Startup Idea" required>
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="startdesc" class="col-sm-4 col-form-label">Startup Description</label>
-                    <div class="col-sm-8">
+                    <label for="startdesc" class="col-md-4 col-form-label">Startup Description</label>
+                    <div class="col-md-8">
                         <input type="text" class="form-control rounded-pill" name="startdesc" placeholder="Startup Description" required>
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="startdesc" class="col-sm-4 col-form-label">Leader ID</label>
-                    <div class="col-sm-8">
+                    <label for="startdesc" class="col-md-4 col-form-label">Leader ID</label>
+                    <div class="col-md-8">
                         <input type="text" class="form-control rounded-pill" name="leaderid" placeholder="Leader ID" required>
                         <small class="form-text text-muted">Please enter student ID of the Institute(VNIT).</small>
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="startdesc" class="col-sm-4 col-form-label">Leader Roll number</label>
-                    <div class="col-sm-8">
+                    <label for="startdesc" class="col-md-4 col-form-label">Leader Roll number</label>
+                    <div class="col-md-8">
                         <input type="text" class="form-control rounded-pill" name="leaderrollno" placeholder="Leader Roll number" required>
                         <small class="form-text text-muted">Please enter Roll number of the Institute(VNIT).</small>
                     </div>
                 </div>
+                <div class="form-group row">
+                    <label for="name[]" class="col-md-4 col-form-label">Leader Name</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control rounded-pill" name="name[]" placeholder="Leader Name" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="age[]" class="col-md-4 col-form-label">Leader Phone Number</label>
+                    <div class="col-md-8">
+                        <input type="number" class="form-control rounded-pill" name="age[]" placeholder="Leader Phone Number" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="job[]" class="col-md-4 col-form-label">Leader Email</label>
+                    <div class="col-md-8">
+                        <input type="email" class="form-control rounded-pill" name="job[]" placeholder="Leader Email" required>
+                    </div>
+                </div>
                 <?php
-                    for($i=1; $i<=$mem; $i++):
+                    for($i=2; $i<=$mem; $i++):
                 ?>
                 <br>    
                     <div class="form-group row">
