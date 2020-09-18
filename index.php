@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['login_use'] = 'ecell';
+?>
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
