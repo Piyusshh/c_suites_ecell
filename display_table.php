@@ -39,8 +39,8 @@
             <tr>
                 <th scope="col">Index</th>
                 <th scope="col">Name</th>
-                <th scope="col">Age</th>
-                <th scope="col">Job</th>
+                <th scope="col">Contact Details</th>
+                <th scope="col">Email</th>
                 <th scope="col">Startup Idea</th>
                 <th scope="col">Startu Description</th>
                 <th scope="col">Leader ID</th>
