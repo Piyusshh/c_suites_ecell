@@ -74,7 +74,41 @@ body
 }
 
 
+/*Perks and Startups*/
 
+/*#perks-header, #startups-header
+{
+    transition: border 1s;
+}
+#perks-header
+{
+    border-bottom: 4px solid rgb(100, 100, 100);
+}
+
+#perks-header:hover, #startups-header:hover
+{
+    border-bottom: 4px solid rgb(100, 100, 100);
+}
+*/
+
+#perks-header .slider-underline, #startups-header .slider-underline
+{
+    width: 0;
+    height: 4px;
+    background: rgb(100, 100, 100);
+    transition: width 0.5s;
+    margin: auto;
+}
+
+.width-full
+{
+    width: 100% !important;
+}
+
+.invisible
+{
+    display: none !important;
+}
 
 /*Footer*/
 footer
