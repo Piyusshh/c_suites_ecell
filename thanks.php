@@ -15,14 +15,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- external css  -->
-    <link rel="stylesheet" href="css/formStyle.css">
+    <link rel="stylesheet" href="css/thanks.css">
     <!-- Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
   <body>
         <div class="container d-flex justify-content-center">
             <div class="row">
-                <div>
+                <div class="text-center">
                 <h2>
                   <?php echo "Welcome to the community ". $name .". You'll hear from us very soon.";?><br>
                   You'll be redirected in 5 seconds. 
