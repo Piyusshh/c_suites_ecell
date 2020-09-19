@@ -81,14 +81,14 @@ else{
                 ?>
                 <br>    
                     <div class="form-group row">
-                        <?php echo "Team member " . $i; ?>
+                        <p style="color: white;"><?php echo "Team member " . $i; ?></p>
                         <input class="form-control rounded-pill" type="text" name="name[]" placeholder="Enter Name" required>
                         <input class="form-control rounded-pill mt-2" type="number" name="age[]" placeholder="Enter Phone Number" required>
                         <input class="form-control rounded-pill mt-2" type="email" name="job[]" placeholder="Enter Email" required>
                     </div>
                 <?php endfor; ?>
                 <center>
-                <button class="btn btn-primary rounded-pill align-items-center" type="submit" name="submit_row" value="SUBMIT">SUBMIT</button>
+                <button class="btn btn-danger rounded-pill align-items-center" type="submit" name="submit_row" value="SUBMIT">SUBMIT</button>
                 </center>
             </form>
         </div>
