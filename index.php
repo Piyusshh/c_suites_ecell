@@ -145,7 +145,7 @@ $_SESSION['login_use'] = 'ecell';
 
         <div id="perks-and-startups" class="container pt-5">
 
-          <h2>Why</h2>
+          <h2>Why?</h2>
 
           <div class="row justify-content-center py-5">
 
@@ -178,12 +178,12 @@ $_SESSION['login_use'] = 'ecell';
                 </div>
 
                 <div class="col-md-4">
-                  <h4>Exclusive Guest Lectures</h4>
+                  <h4>Exclusive Guest Lectures by eminent personalities</h4>
                   <p>These will be high profile guest lectures that will be exclusively arranged for members of C-Suites</p>
                 </div>
 
                 <div class="col-md-4">
-                  <h4>Opportunity for direct entry to the second round of StartUp Conclave</h4>
+                  <h4>Advantage in StartUp Conclave</h4>
                   <p>Active members of C-Suites with a start-up idea will enjoy the liberty of bypassing the Questionnaire Round of StartUp Conclabe and directly enter the Business Model round.</p>
                 </div>
 
@@ -211,7 +211,7 @@ $_SESSION['login_use'] = 'ecell';
           </div>
 
           <div class="row pb-5 invisible" id="startups">
-            I'm visible
+            <span class="text-light">I'm visible</span>
 
           </div>
 
