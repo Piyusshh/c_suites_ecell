@@ -14,7 +14,9 @@ $_SESSION['login_use'] = 'ecell';
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?php echo $pagetitle; ?> | E-CELL, VNIT</title>
+    <title>E-CELL | VNIT</title>
+    <meta name="keywords" content />
+    <meta name="description" content="" >
     <meta name="theme-color" content="rgb(189,32,38)" )="">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
