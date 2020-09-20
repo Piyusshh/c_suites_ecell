@@ -52,15 +52,19 @@ $_SESSION['login_use'] = 'ecell';
 
         <nav class="navbar navbar-expand-sm fixed-top">
             <div class="container">
+              <a class="navbar-brand ml-0" href="#">
+                <img src="images\logo-ecell.png" alt="Ecell Logo" height="60" width="120">
+              </a>
+
               <button class="navbar-toggler bg-light ml-auto" type="button" data-toggle="collapse" data-target="#Navbar">
                 <i class="fas fa-bars"></i>
               </button>
 
               <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto list-unstyled">
-                  <li class="nav-item ml-5"><a class="text-light nav-link" href="#home">Home</a></li>
+                  <li class="nav-item ml-5"><a class="text-light nav-link" href="#">Home</a></li>
                   <li class="nav-item ml-5"><a class="text-light nav-link" href="#about">About </a></li>
-                  <li class="nav-item ml-5"><a class="text-light nav-link" href="#flagship">Register</a></li>
+                  <li class="nav-item ml-5"><a class="text-light nav-link" href="#register">Register</a></li>
                   <li class="nav-item ml-5"><a class="text-light nav-link" href="#contact">Contact</a></li>
                 </ul>
               </div>
@@ -139,16 +143,28 @@ $_SESSION['login_use'] = 'ecell';
 
         <!-- ====================Features=================== -->
 
-        <div id="perks-and-startups" class="container">
+        <div id="perks-and-startups" class="container pt-5">
+
+          <h2>Why</h2>
+
           <div class="row justify-content-center py-5">
+
             <div id="perks-header" class="col-6 text-center">
-              <h3>Perks</h3>
-              <div class="slider-underline  width-full"></div>
+              <a class="unstyled-link" role="button">
+                <h3>Perks</h3>
+                <div class="slider-underline  width-full"></div>
+              </a>
             </div>
+
+
             <div id="startups-header" class="col-6 text-center">
-              <h3>Startups</h3>
-              <div class="slider-underline"></div>
+              <a class="unstyled-link" role="button">
+                <h3>Startups</h3>
+                <div class="slider-underline"></div>
+              </a>
             </div>
+
+
           </div>
 
           <div id="perks" class="row pb-5">
@@ -171,17 +187,17 @@ $_SESSION['login_use'] = 'ecell';
                   <p>Active members of C-Suites with a start-up idea will enjoy the liberty of bypassing the Questionnaire Round of StartUp Conclabe and directly enter the Business Model round.</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 mt-md-5">
                   <h4>Curated Learning Material</h4>
                   <p>Members of C-Suites shall get daily/weekly curated articles about several concepts of business and entrepreneurship covering a plethora of topics from idea generation to valuations and more complex stuff</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 mt-md-5">
                   <h4>Biweekly Meetups</h4>
                   <p>Once every fortnight, all entrepreneurs will connect to each other to discuss their progress/ problems they are facing. Several activities like group discussion/ case studies activities can be organised if the members of C-Suites show interest.</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4  mt-md-5">
                   <h4>Feedback based sessions</h4>
                   <p>Through these biweekly sessions, members can request a session/lecture on a particular topic. E-Cell VNIT shall take the responsibility of arranging the session for the C-Suites</p>
                 </div>
@@ -215,7 +231,7 @@ $_SESSION['login_use'] = 'ecell';
                 <form method ="post" action="register.php">
                     <div class="form-group">
                         <label class="text-light" for="exampleFormControlSelect1">Select Number of Team Members</label>
-                        <select name="SIZE" class="form-control" id="exampleFormControlSelect1">
+                        <select name="SIZE" class="form-control ml-md-5" id="exampleFormControlSelect1">
                           <option>1</option>
                           <option>2</option>
                           <option>3</option>
@@ -235,7 +251,7 @@ $_SESSION['login_use'] = 'ecell';
 
 
         <div id="contact" class="g-padding-x-40--sm g-padding-x-20--xs g-padding-y-40--xs g-padding-y-80--sm" style="background:#000" >
-            <h2 class="g-font-size-30--xs g-font-size-30--sm g-font-size-30--md g-color--white g-padding-x-20--xs" style="text-align:center">Get In Touch</h2>
+            <h2 class="g-font-size-30--xs g-font-size-30--sm g-font-size-30--md g-color--white g-padding-x-20--xs    mb-md-5" style="text-align:center">Get In Touch</h2>
 
             <div class="row justify-content-center">
                 <div class="col-sm-4">

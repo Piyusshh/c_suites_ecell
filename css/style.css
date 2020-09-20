@@ -48,7 +48,13 @@ body
     padding-right: 2rem;
 }
 
-#about h2, #register h2
+
+#about
+{
+    padding: 7% 5%;
+}
+
+#about h2, #register h2, #contact h2, #perks-and-startups h2
 {
     font-size: 2.5rem;
     font-weight: 600;
@@ -60,13 +66,13 @@ body
 #register .form-control
 {
     display: inline;
-    margin-left: 2rem;
     width: 40%;
 }
 #contact .row
 {
     margin-top: 1rem;
 }
+
 .manager-name
 {
     background-color: #bd202696;
@@ -74,22 +80,11 @@ body
 }
 
 
-/*Perks and Startups*/
-
-/*#perks-header, #startups-header
+#perks-header h3, #startups-header h3
 {
-    transition: border 1s;
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
-#perks-header
-{
-    border-bottom: 4px solid rgb(100, 100, 100);
-}
-
-#perks-header:hover, #startups-header:hover
-{
-    border-bottom: 4px solid rgb(100, 100, 100);
-}
-*/
 
 #perks-header .slider-underline, #startups-header .slider-underline
 {
@@ -98,6 +93,29 @@ body
     background: rgb(100, 100, 100);
     transition: width 0.5s;
     margin: auto;
+}
+#perks-and-startups
+{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#perks-and-startups .row p
+{
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.unstyled-link
+{
+    text-decoration: none;
+    color: #000;
+}
+.unstyled-link:hover
+{
+    text-decoration: none;
+    color: #000;
 }
 
 .width-full
@@ -161,5 +179,10 @@ footer
     .share-row .my-3
     {
         margin-top: 0 !important;
+    }
+
+    .expo-front-out
+    {
+        background-size: 100% auto;
     }
 }
